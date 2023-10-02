@@ -1,0 +1,50 @@
+There are total 2 supported mouse buttons
+highscore: 6870    duo-highscore: 17420
+Allegro5 initialized
+resized image: main-bg.png
+resized image: start-bg.jpg
+Change scene from 0 to 1
+Game initialized
+Game start event loop
+Mouse button 1 down at (609, 482)
+Change scene from 1 to 2
+stop audio (bgm)
+Mouse button 1 up at (609, 482)
+Add life
+boss spawn
+hit by enemy, lives left 3
+boss dead
+boss spawn
+Add life
+Add life
+hit by mfg, lives left 3
+hit by enemy, lives left 2
+hit by enemy, lives left 1
+hit by enemy, lives left 0
+Change scene from 2 to 4
+stop audio (bgm)
+Change scene from 4 to 1
+highscore 6870     duo-highscore 17420
+Mouse button 1 down at (1183, 21)
+Change scene from 1 to 3
+stop audio (bgm)
+Mouse button 1 up at (1183, 21)
+Change scene from 3 to 1
+stop audio (bgm)
+Change scene from 1 to 2
+stop audio (bgm)
+hit by enemy, p2 lives left 2
+hit by enemy, lives left 2
+hit by enemy, lives left 1
+ram enemy
+hit by enemy, lives left 0
+hit by enemy, p2 lives left 2
+hit by enemy, p2 lives left 1
+hit by enemy, p2 lives left 0
+Change scene from 2 to 4
+stop audio (bgm)
+Change scene from 4 to 1
+highscore 6870     duo-highscore 17420
+Window close button clicked
+Game end
+Final highscore: 6870     Final duo-highscore: 17420

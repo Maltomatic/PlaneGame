@@ -1,0 +1,703 @@
+stdio    D         file_stdio.c:109  file_stdio_fopen                 [   0.00000] opening C:\Users\justi\OneDrive - 清華大學\NTHUCS_code\10910\final_project\plane_game\bin\Debug\allegro5.cfg r
+system   D            wsystem.c:771  _al_win_safe_load_library        [   0.00000] PathFindOnPath found: C:\WINDOWS\system32\shcore.dll
+system   D            wsystem.c:682  load_library_at_path             [   0.00000] Calling LoadLibrary C:\WINDOWS\system32\shcore.dll
+system   I            wsystem.c:685  load_library_at_path             [   0.00000] Loaded C:\WINDOWS\system32\shcore.dll
+system   I             system.c:257  al_install_system                [   0.00000] Allegro version: 5.2.2
+audio-dsound I           dsound.cpp:249  _dsound_open                     [   0.00076] Starting DirectSound...
+audio-dsound D           dsound.cpp:258  _dsound_open                     [   0.04733] DirectSoundCreate8 succeeded
+audio    I              audio.c:347  do_install_audio                 [   0.05328] Using DirectSound driver
+audio-dsound D           dsound.cpp:290  _dsound_allocate_voice           [   0.05337] Allocating voice
+audio-dsound D           dsound.cpp:349  _dsound_allocate_voice           [   0.05339] Allocated voice
+dtor     D               dtor.c:196  _al_register_destructor          [   0.05340] added dtor for voice 027F5AE8, func 61DC5398
+dtor     D               dtor.c:196  _al_register_destructor          [   0.05342] added dtor for mixer 027F5B78, func 61DC1429
+audio-dsound D           dsound.cpp:446  _dsound_start_voice              [   0.05343] Starting voice
+audio-dsound D           dsound.cpp:474  _dsound_start_voice              [   0.05344] CreateSoundBuffer
+audio-dsound D           dsound.cpp:483  _dsound_start_voice              [   0.05650] CreateSoundBuffer succeeded
+audio-dsound D           dsound.cpp:489  _dsound_start_voice              [   0.05653] Starting _dsound_update thread
+audio-dsound I           dsound.cpp:499  _dsound_start_voice              [   0.05663] Voice started
+dtor     D               dtor.c:196  _al_register_destructor          [   0.05666] added dtor for sample_instance 00ECCA08, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.05668] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05669] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05670] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.05672] added dtor for sample_instance 00ECCAF8, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.05674] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05674] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05675] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.05677] added dtor for sample_instance 00ECCE08, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.05678] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05679] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05680] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.05682] added dtor for sample_instance 00ECD970, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.05684] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05685] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05686] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.05688] added dtor for sample_instance 00ECDA60, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.05709] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05711] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05712] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.05714] added dtor for sample_instance 00ECD5B0, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.05729] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05735] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05736] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.05738] added dtor for sample_instance 00ECD3D0, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.05739] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05740] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05741] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.05742] added dtor for sample_instance 00ECD4C0, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.05744] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05745] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05746] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.05747] added dtor for sample_instance 00ECD6A0, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.05749] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05750] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05751] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.05753] added dtor for sample_instance 00ECDD30, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.05754] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05755] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05757] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.05758] added dtor for sample_instance 00ECD1F0, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.05760] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05761] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05762] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.05763] added dtor for sample_instance 00ECD010, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.05766] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05767] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05768] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.05770] added dtor for sample_instance 00ECDB50, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.05771] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05772] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05773] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.05774] added dtor for sample_instance 00ECD790, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.05776] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05777] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05778] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.05779] added dtor for sample_instance 00ECDC40, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.05780] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05781] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05783] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.05784] added dtor for sample_instance 00ECD100, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.05786] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05788] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05789] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.05790] added dtor for sample_instance 00ECD2E0, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.05792] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05793] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05794] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.05796] added dtor for sample_instance 00ECD880, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.05798] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05799] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05800] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.05801] added dtor for sample_instance 00ECCF20, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.05803] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05804] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05805] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.05807] added dtor for sample_instance 028027A0, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.05808] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05810] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05811] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.05812] added dtor for sample_instance 028035B0, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.05813] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05814] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05815] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.05817] added dtor for sample_instance 02802D40, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.05820] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05822] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05823] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.05825] added dtor for sample_instance 02803880, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.05826] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05828] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05829] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.05832] added dtor for sample_instance 02802F20, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.05835] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05836] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05838] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.05841] added dtor for sample_instance 028024D0, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.05842] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05843] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05845] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.05847] added dtor for sample_instance 028022F0, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.05848] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05850] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05851] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.05852] added dtor for sample_instance 02802020, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.05853] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05854] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05855] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.05857] added dtor for sample_instance 02803790, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.05858] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05859] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05860] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.05861] added dtor for sample_instance 028033D0, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.05863] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05864] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05866] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.05868] added dtor for sample_instance 028036A0, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.05869] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05871] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05872] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.05874] added dtor for sample_instance 02802E30, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.05875] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05876] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05877] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.05880] added dtor for sample_instance 02802110, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.05882] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05884] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05885] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.05886] added dtor for sample_instance 02803970, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.05887] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05889] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05890] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.05891] added dtor for sample_instance 02801F30, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.05892] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05894] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05895] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.05896] added dtor for sample_instance 02803010, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.05897] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05899] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05900] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.05903] added dtor for sample_instance 02802C50, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.05916] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05917] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05918] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.05920] added dtor for sample_instance 02803A60, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.05921] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05922] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05923] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.05924] added dtor for sample_instance 028025C0, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.05926] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05927] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05928] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.05932] added dtor for sample_instance 02802200, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.05933] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05934] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05936] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.05938] added dtor for sample_instance 02803100, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.05942] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05944] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05945] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.05947] added dtor for sample_instance 028034C0, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.05949] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05950] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05952] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.05953] added dtor for sample_instance 02801D50, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.05954] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05955] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05957] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.05958] added dtor for sample_instance 02801E40, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.05959] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05961] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05962] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.05963] added dtor for sample_instance 028023E0, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.05964] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05965] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05966] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.05968] added dtor for sample_instance 028031F0, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.05969] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05970] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05971] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.05972] added dtor for sample_instance 028032E0, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.05974] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05975] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05976] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.05977] added dtor for sample_instance 02802890, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.05978] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05979] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05979] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.05981] added dtor for sample_instance 028026B0, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.05982] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05983] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05985] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.05986] added dtor for sample_instance 02802980, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.05986] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05987] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05988] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.05991] added dtor for sample_instance 02802A70, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.05992] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05992] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05993] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.05994] added dtor for sample_instance 02802B60, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.05995] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05996] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05997] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.05998] added dtor for sample_instance 02803B50, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.05999] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.05999] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06000] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.06003] added dtor for sample_instance 02804160, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.06004] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06005] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06006] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.06007] added dtor for sample_instance 02804250, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.06008] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06009] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06009] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.06010] added dtor for sample_instance 02805BA0, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.06011] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06012] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06013] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.06014] added dtor for sample_instance 02805C90, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.06019] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06021] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06022] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.06024] added dtor for sample_instance 028057E0, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.06026] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06026] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06027] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.06028] added dtor for sample_instance 028058D0, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.06029] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06030] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06031] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.06032] added dtor for sample_instance 028059C0, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.06032] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06033] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06034] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.06035] added dtor for sample_instance 02805AB0, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.06036] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06037] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06038] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.06038] added dtor for sample_instance 02804AC0, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.06039] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06040] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06041] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.06042] added dtor for sample_instance 028049D0, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.06043] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06044] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06045] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.06046] added dtor for sample_instance 02805D80, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.06047] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06048] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06049] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.06050] added dtor for sample_instance 02805150, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.06051] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06052] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06053] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.06055] added dtor for sample_instance 02804BB0, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.06056] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06057] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06057] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.06059] added dtor for sample_instance 02804700, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.06060] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06061] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06062] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.06063] added dtor for sample_instance 02805240, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.06064] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06065] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06066] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.06067] added dtor for sample_instance 02804E80, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.06068] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06068] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06069] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.06070] added dtor for sample_instance 02804520, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.06071] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06072] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06073] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.06074] added dtor for sample_instance 02804340, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.06075] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06076] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06076] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.06077] added dtor for sample_instance 02805E70, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.06078] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06079] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06080] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.06081] added dtor for sample_instance 02804430, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.06082] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06083] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06084] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.06085] added dtor for sample_instance 02805420, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.06086] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06087] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06088] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.06089] added dtor for sample_instance 02804D90, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.06090] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06091] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06092] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.06095] added dtor for sample_instance 02804CA0, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.06096] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06097] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06098] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.06099] added dtor for sample_instance 02804F70, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.06107] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06108] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06109] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.06110] added dtor for sample_instance 02804610, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.06112] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06113] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06114] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.06115] added dtor for sample_instance 028047F0, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.06116] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06117] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06117] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.06118] added dtor for sample_instance 028048E0, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.06119] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06120] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06121] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.06122] added dtor for sample_instance 02805060, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.06123] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06124] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06125] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.06126] added dtor for sample_instance 02805330, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.06127] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06127] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06128] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.06129] added dtor for sample_instance 02805510, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.06130] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06131] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06132] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.06133] added dtor for sample_instance 02805600, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.06134] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06135] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06136] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.06137] added dtor for sample_instance 028056F0, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.06138] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06139] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06140] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.06141] added dtor for sample_instance 02805F60, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.06142] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06143] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06144] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.06148] added dtor for sample_instance 02808670, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.06150] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06151] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06152] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.06153] added dtor for sample_instance 02807C20, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.06154] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06155] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06156] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.06157] added dtor for sample_instance 02807D10, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.06158] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06159] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06160] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.06160] added dtor for sample_instance 02807590, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.06161] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06162] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06163] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.06164] added dtor for sample_instance 02808DF0, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.06165] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06166] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06167] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.06168] added dtor for sample_instance 02808B20, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.06169] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06169] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06170] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.06171] added dtor for sample_instance 02808D00, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.06172] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06173] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06174] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.06175] added dtor for sample_instance 02807860, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.06176] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06176] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06177] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.06179] added dtor for sample_instance 02807680, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.06180] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06180] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06181] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.06182] added dtor for sample_instance 02808EE0, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.06183] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06184] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06185] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.06186] added dtor for sample_instance 02808FD0, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.06187] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06188] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06189] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.06190] added dtor for sample_instance 02807950, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.06191] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06191] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06192] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.06193] added dtor for sample_instance 02808A30, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.06194] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06195] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06196] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.06197] added dtor for sample_instance 028090C0, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.06198] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06199] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06200] 
+dtor     D               dtor.c:196  _al_register_destructor          [   0.06202] added dtor for sample_instance 02808490, func 61DBB8F3
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.06204] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06205] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.06205] 
+system   D            wsystem.c:771  _al_win_safe_load_library        [   0.06256] PathFindOnPath found: C:\WINDOWS\system32\d3d9.dll
+system   D            wsystem.c:682  load_library_at_path             [   0.06259] Calling LoadLibrary C:\WINDOWS\system32\d3d9.dll
+system   I            wsystem.c:685  load_library_at_path             [   0.06781] Loaded C:\WINDOWS\system32\d3d9.dll
+d3d      I         d3d_disp.cpp:674  d3d_init_display                 [   0.08953] Render-to-texture: 1
+d3d      I         d3d_disp.cpp:1769 d3d_create_display_locked        [   0.09250] faux_fullscreen=0
+d3d      D         d3d_disp.cpp:1770 d3d_create_display_locked        [   0.09254] al_display=02809AB0
+d3d      D         d3d_disp.cpp:1771 d3d_create_display_locked        [   0.09256] al_display->vt=028099F8
+d3d      I d3d_display_formats.cpp:144  _al_d3d_generate_display_format_list [   0.10042] found 64 format combinations
+display  D   display_settings.c:212  debug_display_settings           [   0.10055] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.10058] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0.10060] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.10062] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0.10064] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.10065] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0.10066] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.10068] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0.10069] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.10071] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0.10073] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.10076] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0.10078] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.10080] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0.10081] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.10083] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0.10085] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.10088] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0.10090] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.10092] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0.10093] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.10095] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0.10097] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.10100] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0.10102] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.10104] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0.10105] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.10107] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0.10109] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.10111] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0.10113] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.10114] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0.10116] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.10118] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.10120] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.10123] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.10124] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.10129] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.10131] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.10133] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.10134] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.10136] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.10138] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.10140] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.10142] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.10143] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.10144] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.10146] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.10148] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.10149] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.10151] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.10153] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.10154] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.10156] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.10158] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.10160] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.10162] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.10164] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.10165] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.10167] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.10169] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.10171] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.10173] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.10175] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.10176] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.10179] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0.10180] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.10183] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0.10185] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.10186] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0.10188] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.10190] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0.10192] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.10194] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0.10196] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.10198] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0.10200] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.10202] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0.10203] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.10204] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0.10205] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.10207] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0.10209] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.10212] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0.10214] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.10215] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0.10217] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.10220] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0.10222] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.10224] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0.10226] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.10229] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0.10231] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.10234] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0.10235] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.10237] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0.10239] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.10240] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.10242] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.10245] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.10253] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.10257] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.10259] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.10268] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.10270] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.10273] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.10275] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.10278] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.10280] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.10282] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.10284] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.10293] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.10298] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.10317] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.10322] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.10324] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.10326] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.10329] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.10331] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.10333] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.10337] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.10342] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.10345] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.10347] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.10357] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.10360] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.10376] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.10381] Single Buffer requirement not met.
+d3d      D         d3d_disp.cpp:1669 d3d_create_display_internals     [   0.10385] Trying format 0.
+d3d      I         d3d_disp.cpp:1344 d3d_display_thread_proc          [   0.10912] Chose a display format: 23
+d3d      I         d3d_disp.cpp:1413 d3d_display_thread_proc          [   0.10919] Normal window.
+d3d      I         d3d_disp.cpp:781  d3d_create_device                [   0.24212] Using no depth stencil buffer
+d3d      D         d3d_disp.cpp:839  d3d_create_device                [   0.28459] BeginScene succeeded in create_device
+d3d      D         d3d_disp.cpp:847  d3d_create_device                [   0.28463] Success
+d3d      D         d3d_disp.cpp:1692 d3d_create_display_internals     [   0.28469] Resumed after wait.
+d3d      I         d3d_disp.cpp:1725 d3d_create_display_internals     [   0.28474] Format 0 succeeded.
+d3d      D         d3d_disp.cpp:1756 d3d_create_display_internals     [   0.28479] Returning d3d_display: 02809AB0
+d3d      D         d3d_disp.cpp:1781 d3d_create_display_locked        [   0.28481] al_display=02809AB0
+d3d      D         d3d_disp.cpp:1782 d3d_create_display_locked        [   0.28482] al_display->vt=028099F8
+system   W            wsystem.c:775  _al_win_safe_load_library        [   0.28649] PathFindOnPath failed to find d3dx9_43.dll
+system   W            wsystem.c:775  _al_win_safe_load_library        [   0.28837] PathFindOnPath failed to find d3dx9_42.dll
+system   W            wsystem.c:775  _al_win_safe_load_library        [   0.28958] PathFindOnPath failed to find d3dx9_41.dll
+system   W            wsystem.c:775  _al_win_safe_load_library        [   0.29077] PathFindOnPath failed to find d3dx9_40.dll
+system   W            wsystem.c:775  _al_win_safe_load_library        [   0.29189] PathFindOnPath failed to find d3dx9_39.dll
+system   W            wsystem.c:775  _al_win_safe_load_library        [   0.29340] PathFindOnPath failed to find d3dx9_38.dll
+system   W            wsystem.c:775  _al_win_safe_load_library        [   0.29507] PathFindOnPath failed to find d3dx9_37.dll
+system   W            wsystem.c:775  _al_win_safe_load_library        [   0.29675] PathFindOnPath failed to find d3dx9_36.dll
+system   W            wsystem.c:775  _al_win_safe_load_library        [   0.29870] PathFindOnPath failed to find d3dx9_35.dll
+system   W            wsystem.c:775  _al_win_safe_load_library        [   0.30070] PathFindOnPath failed to find d3dx9_34.dll
+system   W            wsystem.c:775  _al_win_safe_load_library        [   0.30213] PathFindOnPath failed to find d3dx9_33.dll
+system   D            wsystem.c:771  _al_win_safe_load_library        [   0.30254] PathFindOnPath found: C:\WINDOWS\system32\d3dx9_32.dll
+system   D            wsystem.c:682  load_library_at_path             [   0.30257] Calling LoadLibrary C:\WINDOWS\system32\d3dx9_32.dll
+system   I            wsystem.c:685  load_library_at_path             [   0.30379] Loaded C:\WINDOWS\system32\d3dx9_32.dll
+d3dx9    I        d3d_d3dx9.cpp:88   _imp_load_d3dx9_module_version   [   0.30387] Module "d3dx9_32.dll" loaded.
+dtor     D               dtor.c:196  _al_register_destructor          [   0.30844] added dtor for timer 0280C330, func 61CF628F
+dtor     D               dtor.c:196  _al_register_destructor          [   0.30850] added dtor for queue 02824A08, func 61CE5C4F
+dtor     D               dtor.c:116  _al_run_destructors              [   2.33320] calling dtor for queue 02824A08, func 61CE5C4F
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33326] removed dtor for queue 02824A08
+dtor     D               dtor.c:116  _al_run_destructors              [   2.33331] calling dtor for timer 0280C330, func 61CF628F
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33333] removed dtor for timer 0280C330
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33337] removed dtor for sample_instance 00ECCA08
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33339] removed dtor for sample_instance 00ECCAF8
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33341] removed dtor for sample_instance 00ECCE08
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33342] removed dtor for sample_instance 00ECD970
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33344] removed dtor for sample_instance 00ECDA60
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33346] removed dtor for sample_instance 00ECD5B0
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33347] removed dtor for sample_instance 00ECD3D0
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33349] removed dtor for sample_instance 00ECD4C0
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33351] removed dtor for sample_instance 00ECD6A0
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33368] removed dtor for sample_instance 00ECDD30
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33371] removed dtor for sample_instance 00ECD1F0
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33372] removed dtor for sample_instance 00ECD010
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33374] removed dtor for sample_instance 00ECDB50
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33376] removed dtor for sample_instance 00ECD790
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33377] removed dtor for sample_instance 00ECDC40
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33379] removed dtor for sample_instance 00ECD100
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33381] removed dtor for sample_instance 00ECD2E0
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33382] removed dtor for sample_instance 00ECD880
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33384] removed dtor for sample_instance 00ECCF20
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33386] removed dtor for sample_instance 028027A0
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33387] removed dtor for sample_instance 028035B0
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33389] removed dtor for sample_instance 02802D40
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33391] removed dtor for sample_instance 02803880
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33392] removed dtor for sample_instance 02802F20
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33394] removed dtor for sample_instance 028024D0
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33396] removed dtor for sample_instance 028022F0
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33397] removed dtor for sample_instance 02802020
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33399] removed dtor for sample_instance 02803790
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33401] removed dtor for sample_instance 028033D0
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33402] removed dtor for sample_instance 028036A0
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33404] removed dtor for sample_instance 02802E30
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33409] removed dtor for sample_instance 02802110
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33411] removed dtor for sample_instance 02803970
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33420] removed dtor for sample_instance 02801F30
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33424] removed dtor for sample_instance 02803010
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33425] removed dtor for sample_instance 02802C50
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33427] removed dtor for sample_instance 02803A60
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33428] removed dtor for sample_instance 028025C0
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33430] removed dtor for sample_instance 02802200
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33432] removed dtor for sample_instance 02803100
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33433] removed dtor for sample_instance 028034C0
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33435] removed dtor for sample_instance 02801D50
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33437] removed dtor for sample_instance 02801E40
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33439] removed dtor for sample_instance 028023E0
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33441] removed dtor for sample_instance 028031F0
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33442] removed dtor for sample_instance 028032E0
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33444] removed dtor for sample_instance 02802890
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33445] removed dtor for sample_instance 028026B0
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33447] removed dtor for sample_instance 02802980
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33449] removed dtor for sample_instance 02802A70
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33450] removed dtor for sample_instance 02802B60
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33452] removed dtor for sample_instance 02803B50
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33453] removed dtor for sample_instance 02804160
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33455] removed dtor for sample_instance 02804250
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33457] removed dtor for sample_instance 02805BA0
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33458] removed dtor for sample_instance 02805C90
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33460] removed dtor for sample_instance 028057E0
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33461] removed dtor for sample_instance 028058D0
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33463] removed dtor for sample_instance 028059C0
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33464] removed dtor for sample_instance 02805AB0
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33466] removed dtor for sample_instance 02804AC0
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33468] removed dtor for sample_instance 028049D0
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33469] removed dtor for sample_instance 02805D80
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33471] removed dtor for sample_instance 02805150
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33472] removed dtor for sample_instance 02804BB0
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33474] removed dtor for sample_instance 02804700
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33475] removed dtor for sample_instance 02805240
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33477] removed dtor for sample_instance 02804E80
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33478] removed dtor for sample_instance 02804520
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33480] removed dtor for sample_instance 02804340
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33481] removed dtor for sample_instance 02805E70
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33483] removed dtor for sample_instance 02804430
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33485] removed dtor for sample_instance 02805420
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33486] removed dtor for sample_instance 02804D90
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33488] removed dtor for sample_instance 02804CA0
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33490] removed dtor for sample_instance 02804F70
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33491] removed dtor for sample_instance 02804610
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33493] removed dtor for sample_instance 028047F0
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33495] removed dtor for sample_instance 028048E0
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33496] removed dtor for sample_instance 02805060
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33498] removed dtor for sample_instance 02805330
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33499] removed dtor for sample_instance 02805510
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33501] removed dtor for sample_instance 02805600
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33502] removed dtor for sample_instance 028056F0
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33504] removed dtor for sample_instance 02805F60
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33508] removed dtor for sample_instance 02808670
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33510] removed dtor for sample_instance 02807C20
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33512] removed dtor for sample_instance 02807D10
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33513] removed dtor for sample_instance 02807590
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33515] removed dtor for sample_instance 02808DF0
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33517] removed dtor for sample_instance 02808B20
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33554] removed dtor for sample_instance 02808D00
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33559] removed dtor for sample_instance 02807860
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33561] removed dtor for sample_instance 02807680
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33563] removed dtor for sample_instance 02808EE0
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33565] removed dtor for sample_instance 02808FD0
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33567] removed dtor for sample_instance 02807950
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33569] removed dtor for sample_instance 02808A30
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33571] removed dtor for sample_instance 028090C0
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33573] removed dtor for sample_instance 02808490
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.33575] removed dtor for mixer 027F5B78
+audio-dsound D           dsound.cpp:509  _dsound_stop_voice               [   2.33577] Stopping voice
+audio-dsound D           dsound.cpp:526  _dsound_stop_voice               [   2.33578] Joining thread
+audio-dsound D           dsound.cpp:532  _dsound_stop_voice               [   2.34091] Joined thread
+audio-dsound D           dsound.cpp:534  _dsound_stop_voice               [   2.34096] Destroying thread
+audio-dsound D           dsound.cpp:536  _dsound_stop_voice               [   2.34101] Thread destroyed
+audio-dsound D           dsound.cpp:543  _dsound_stop_voice               [   2.34102] Releasing buffer
+audio-dsound I           dsound.cpp:547  _dsound_stop_voice               [   2.34104] Voice stopped
+dtor     D               dtor.c:227  _al_unregister_destructor        [   2.34116] removed dtor for voice 027F5AE8
+audio-dsound D           dsound.cpp:359  _dsound_deallocate_voice         [   2.34119] Deallocating voice
+audio-dsound D           dsound.cpp:364  _dsound_deallocate_voice         [   2.34121] Deallocated voice
+audio-dsound D           dsound.cpp:275  _dsound_close                    [   2.34123] Releasing device
+audio-dsound D           dsound.cpp:277  _dsound_close                    [   2.34986] Released device
+audio-dsound I           dsound.cpp:278  _dsound_close                    [   2.34993] DirectSound closed
+d3d      I         d3d_disp.cpp:901  d3d_destroy_display              [   2.38278] destroying display 02809AB0 (current 00000000)
+d3d      D         d3d_disp.cpp:885  d3d_destroy_display_internals    [   2.38553] waiting for display 02809AB0's thread to end
+d3d      W         d3d_disp.cpp:595  d3d_destroy_device               [   2.45395] d3d_destroy_device: ref count not 0
+d3d      I         d3d_disp.cpp:1549 d3d_display_thread_proc          [   2.46354] d3d display thread exits
